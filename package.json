@@ -1,0 +1,24 @@
+{
+  "name": "factory-di",
+  "version": "0.0.1",
+  "description": "A dependency injection engine for factories for NodeJS.",
+  "main": "src/index.js",
+  "author": "Jon White",
+  "license": "ISC",
+  "engines": {
+    "node": ">=11"
+  },
+  "scripts": {
+    "example": "node src/example/example.js",
+    "lint": "./node_modules/.bin/eslint src",
+    "test": "node_modules/.bin/ava -v"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "eslint": "^6.1.0",
+    "mocha-parallel-tests": "^2.2.1"
+  }
+}
