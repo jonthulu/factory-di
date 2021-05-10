@@ -14,7 +14,7 @@
     "test": "node_modules/.bin/ava -v"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "ava": "^2.2.0",
